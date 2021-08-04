@@ -31,4 +31,4 @@ const usuarios = [{
     status: 'BLOQUEADO'
 }]
 
-module.exports = { usuarios, perfis }
+module.exports = { usuarios, perfis, nextId }
