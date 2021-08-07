@@ -35,4 +35,5 @@ input PerfilInput {
 
 input PerfilFiltro {
     id: Int
+    nome: String
 }
