@@ -3,6 +3,7 @@ const { perfis, nextId } = require('../../data/db.js')
 function indicePerfil(filtro){
     if(!filtro) return -1
     const { id, nome } = filtro
+    
     if(id) {
         return perfis
             .findIndex(p => p.id === id)
