@@ -11,7 +11,6 @@ function indicePerfil(filtro){
 }
 
 module.exports = {
-    //{ nome, email, idade }
     novoPerfil(_, { dados }) {
         
         const nomeExistente = perfis
