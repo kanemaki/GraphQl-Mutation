@@ -1,4 +1,4 @@
-const { usuarios, nextId } = require('../data/db.js')
+const { usuarios, nextId } = require('../../data/db.js')
 
 function indiceUsuario(filtro){
     if(!filtro) return -1
