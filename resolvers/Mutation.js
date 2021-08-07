@@ -59,6 +59,7 @@ module.exports = {
 
         //usuarios.splice(i, 1, usuario)
         //return usuario
+        return usuarios[i]
     },
 
 
